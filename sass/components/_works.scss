@@ -3,9 +3,9 @@
         padding-top: 0;
     }
 
-    
 }
 .works {
+    @extend %list;
     display: flex;
     justify-content: center;
 

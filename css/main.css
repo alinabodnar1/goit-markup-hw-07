@@ -16,7 +16,7 @@ body {
   text-decoration: none;
 }
 
-.grid, .buttons, .our-contacts__item, .footer__our-contacts, .clients, .social, .team, .features, .contactus, .site-nav {
+.grid, .buttons, .our-contacts__item, .footer__our-contacts, .clients, .social, .team, .works, .features, .contactus, .site-nav {
   margin: 0;
   padding: 0;
   list-style: none;
