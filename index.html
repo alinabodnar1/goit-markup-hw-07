@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">   
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Шапка сайту -->
       <header>
-        <div class="container header">
+        <div class="container main-nav">
             <a href="./index.html" class="logo" lang="en">
                 <span class="logo__first-part">Web</span><span class="logo__second-part">Studio</span>
             </a>
@@ -22,7 +23,7 @@
                 <ul class="list site-nav">
                     <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link--current site-nav__link--active">Студія</a></li>
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
-                    <li class="site-nav__item"><a href="#" class="site-nav__link">Контакти</a></li>
+                    <li class="site-nav__item"><a href="./test.html" class="site-nav__link">Контакти</a></li>
                 </ul>
             </nav>
             <ul class="list contactus">
@@ -331,8 +332,8 @@
                     <a href="./index.html" class="logo" lang="en">
                         <span class="logo__first-part">Web</span><span class="footer__logo">Studio</span>
                     </a>
-                    <address class="our-contacts footer__our-contacts">
-                        <ul class="list">
+                    <address class="our-contacts ">
+                        <ul class="list footer__our-contacts">
                             <li class="our-contacts__item">
                                 <a href="https://goo.gl/maps/11UuVae9dyb9pXKr7" class="our-contacts__address" target="_blank"
                                     rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
@@ -401,7 +402,7 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal__close" data-modal-close>
-                <svg class="modal__close-icon" width="30" height="30">
+                <svg class="modal__close-icon">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>

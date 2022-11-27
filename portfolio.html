@@ -10,12 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">    
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Шапка сайту -->
     <header>
-        <div class="container header">
+        <div class="container main-nav">
             <a href="./index.html" class="logo" lang="en">
                 <span class="logo__first-part">Web</span><span class="logo__second-part">Studio</span> 
              </a>
@@ -223,8 +224,8 @@
                         <a href="./index.html" class="logo" lang="en">
                             <span class="logo__first-part">Web</span><span class="footer__logo">Studio</span>
                         </a>
-                        <address class="our-contacts footer__our-contacts">
-                            <ul class="list">
+                        <address class="our-contacts ">
+                            <ul class="list footer__our-contacts">
                                 <li class="our-contacts__item">
                                     <a href="https://goo.gl/maps/11UuVae9dyb9pXKr7" class="our-contacts__address"
                                         target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
@@ -277,8 +278,8 @@
         
                         <form class="subscribe__email" name="user-subscribe">
                             <label for="subscribe"></label>
-                            <input class="subscribe__input" id="subscribe" name="user-subscribe" type="email">
-                                placeholder="E-mail" />
+                            <input id="subscribe" type="email" name="user-subscribe" class="subscribe__input"
+                                placeholder="E-mail">
                             <button type="submit" class="subscribe__button common-button">Підписатися
                                 <svg class="subscribe__icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-send"></use>
